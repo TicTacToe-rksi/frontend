@@ -8,6 +8,7 @@
     Styling: Sass, MaterialUI
     API: AxiosHTTP
     State managment: -
+    Other: ESLint
 
 ---
 
