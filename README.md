@@ -10,6 +10,8 @@
     State managment: -
     Other: ESLint
 
+    Deploy: Vercel hosting
+
 ---
 
 ## idk
