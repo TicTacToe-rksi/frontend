@@ -1,0 +1,47 @@
+.BottomNavBar {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  //animation: 2s cubic-bezier(.100,.100,.100,5) smoothAppear;
+  //animation-delay: 2s;
+
+  .Wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    bottom: 1.5rem;
+
+    width: 90vw;
+    height: auto;
+
+    border-radius: 2rem;
+    border: 0.25rem solid white;
+    background: black;
+
+    a {
+
+      img {
+        width: 2.5rem;
+        height: 2.5rem;
+
+        margin: 1.5rem;
+      }
+    }
+  }
+}
+
+//@keyframes upToDownHide {
+//  from {
+//    top: 0;
+//    display: flex;
+//  }
+//  to {
+//    top: 100vh;
+//    display: none;
+//  }
+//}
