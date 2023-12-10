@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.HomeScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+
+  .load {
+    //display: flex;
+    //align-items: center;
+    //justify-content: center;
+
+    position: absolute;
+    z-index: 2;
+    top: 100vh;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: black;
+
+    animation: 2s cubic-bezier(.100,.100,.100,5) upToDownHide backwards;
+    animation-delay: 1.5s;
+
+    h1 {
+      //margin-top: 45vh;
+      line-height: 100vh;
+      text-align: center;
+      color: white;
+    }
+  }
+
+  .UserCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 90%;
+
+    margin-bottom: 20rem;
+
+    border-radius: 2rem;
+    border: 0.25rem solid white;
+
+    animation: 2s cubic-bezier(.100,.100,.100,5) smoothAppear backwards;
+    animation-delay: 2s;
+
+    img {
+      width: 5rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .Username {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .id {
+      margin-bottom: 2rem;
+    }
+
+    .StatsSection {
+      margin-bottom: 2rem;
+
+      p {}
+    }
+
+  }
+}
+
+@keyframes upToDownHide {
+  from {
+    top: 0;
+    display: block;
+  }
+  to {
+    top: 100vh;
+    display: none;
+  }
+}
+@keyframes smoothAppear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

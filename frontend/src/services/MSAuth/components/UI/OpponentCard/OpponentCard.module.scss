@@ -1,0 +1,26 @@
+.opponent {
+  width: 90%;
+
+  margin: auto;
+
+  border-radius: 1rem;
+  border: 0.1rem solid white;
+
+  .oppInfoWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+
+    margin: 1rem;
+
+    img {
+      width: 10vw;
+      height: 10vw;
+    }
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}

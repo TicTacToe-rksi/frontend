@@ -1,0 +1,18 @@
+.UIKitDefaultButton {
+	font-family: 'Courier New', Courier, monospace;
+
+	padding: 1rem;
+
+	color: white;
+	background: blue;
+	border: 0.25rem solid blue;
+	border-radius: 1rem;
+
+	transition: all 0.2s;
+
+	&:hover {
+		color: blue;
+		background: white;
+		border: blue;
+	}
+}

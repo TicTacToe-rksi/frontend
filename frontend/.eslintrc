@@ -2,23 +2,23 @@
   "extends": [
     "react-app",
     "react-app/jest"
-  ],
-  "rules": {
-    "no-unused-vars": "warn",
-    "no-console": "warn",
-    "prefer-const": "error",
-    "quotes": ["error", "single"],
-    "jsx-quotes": ["error", "prefer-double"],
-    "indent": ["error", "tab"],
-    "comma-dangle": ["error", "always-multiline"],
-    "semi": ["warn", "never"],
-    //    "import/order": ["error", {
-    //      "groups": ["bultin", "external", "internal", "parent", "sibling", "index", "object", "type"]
-    ////      "newlines-between": "always-and-inside-groups"
-    //    }],
-    "template-curly-spacing": ["error", "always"],
-    "object-curly-spacing": ["error", "always"],
-    "array-bracket-spacing": ["error", "always"],
-    "no-use-before-define": ["error", { "functions": false, "classes": false }]
-  }
+  ]
+//  "rules": {
+//    "no-unused-vars": "warn",
+//    "no-console": "warn",
+//    "prefer-const": "error",
+//    "quotes": ["error", "single"],
+//    "jsx-quotes": ["warn", "prefer-double"],
+//    "indent": ["error", "tab"],
+//    "comma-dangle": ["error", "always-multiline"],
+//    "semi": ["warn", "never"],
+//    //    "import/order": ["error", {
+//    //      "groups": ["bultin", "external", "internal", "parent", "sibling", "index", "object", "type"]
+//    ////      "newlines-between": "always-and-inside-groups"
+//    //    }],
+//    "template-curly-spacing": ["error", "always"],
+//    "object-curly-spacing": ["error", "always"],
+//    "array-bracket-spacing": ["error", "always"],
+//    "no-use-before-define": ["error", { "functions": false, "classes": false }]
+//  }
 }
