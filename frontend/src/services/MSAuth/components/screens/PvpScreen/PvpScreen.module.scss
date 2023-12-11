@@ -1,0 +1,61 @@
+body {
+  color: white;
+  background: black;
+}
+
+.PvpScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    width: 90vw;
+
+    margin-bottom: 15rem;
+
+    animation: 2s cubic-bezier(.100,.100,.100,5) smoothAppear backwards;
+
+    a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      border-radius: 2rem;
+      border: 0.25rem solid white;
+      background: black;
+
+      img {
+        width: 20vw;
+        height: 20vw;
+
+        margin: 1rem 2rem;
+      }
+      p {
+        color: white;
+        margin-bottom: 1rem;
+        font-size: 3rem;
+      }
+    }
+  }
+}
+
+@keyframes smoothAppear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
