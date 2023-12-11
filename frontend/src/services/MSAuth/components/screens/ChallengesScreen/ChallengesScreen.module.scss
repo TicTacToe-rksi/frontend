@@ -1,7 +1,13 @@
-.ChallangesScreen {
+.ChallengesScreen {
 
   .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
     width: 90%;
+    height: 70vh;
 
     margin: auto;
 
@@ -9,7 +15,14 @@
     border: 0.1rem solid white;
 
     h2 {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
 
+      font-size: 2rem;
+    }
+    .oppCardWrapper {
+      width: 100%;
+      margin: 0;
     }
   }
 }

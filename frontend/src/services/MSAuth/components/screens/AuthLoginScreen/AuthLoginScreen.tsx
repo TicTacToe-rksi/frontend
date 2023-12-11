@@ -69,7 +69,7 @@ export const AuthLoginScreen = () => {
 	// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [ isAuthorized ])
 	if (localStorage.getItem('username') && localStorage.getItem('password')) {
-		window.location.pathname = '/homepage'
+		window.location.pathname = '/home'
 	}
 
 	const mgTopOfPage: number = window.innerHeight / 4.5
